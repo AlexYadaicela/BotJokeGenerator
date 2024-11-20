@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto:wght@400;500&display=swap');@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:wght@400;500&display=swap');
+
+:root{
+    --ff-default: "Lato", sans-serif;;
+    --clr-bg: #3d405b;  
+}
+*,
+*::before, 
+*::after{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--ff-default);
+    background-color: var(--clr-bg);
+    font-weight: bold;
+}
+#app{
+    display: grid; 
+    align-items: center;
+    justify-content: center; 
+    margin-inline: auto; 
+}
+
+#joke_display{
+    font-size: 1.5rem; 
+    word-spacing: 15px;
+}
+
+#setup{
+color: #83c5be; 
+}
+
+#delivery{
+    color: #e63946; 
+}
+
+#btn_joke{
+    margin-inline: auto;
+}
