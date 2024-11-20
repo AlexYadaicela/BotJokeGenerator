@@ -10,6 +10,12 @@
     box-sizing: border-box;
 }
 
+img{
+    max-inline-size: 100%;
+    block-size: auto;
+    display: block; 
+}
+
 body{
     font-family: var(--ff-default);
     background-color: var(--clr-bg);
@@ -22,9 +28,12 @@ body{
     margin-inline: auto; 
 }
 
-#joke_display{
-    font-size: 1.5rem; 
-    word-spacing: 15px;
+.bot_display{
+    margin-inline: auto;
+}
+
+.joke_display{
+    font-size: 1rem; 
 }
 
 #setup{
